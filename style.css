@@ -1,0 +1,20 @@
+body {
+  font-family: "TT Norms Pro Regular";
+}
+
+.container {
+  border-bottom: 1px;
+  border-color: azure;
+}
+
+.nav-item {
+  margin-inline: 10px;
+}
+
+.hello {
+  color: rgb(173, 96, 246);
+}
+
+.mail {
+  text-decoration: none;
+}
