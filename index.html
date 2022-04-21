@@ -11,9 +11,9 @@
   <title>Homepage</title>
 </head>
 
-<body class="bg-dark">
+<body class="bg-light">
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
     <div class="container">
       <a href="" class="navbar-brand">Victor Ajayi</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
@@ -34,22 +34,32 @@
       </div>
     </div>
   </nav>
+
   <!-- Main body -->
-  <main class="m-5 p-5 text-center text-md-start text-light">
-    <h3 class="display-5 fw-bold"><span class="hello">Hello! 👋🏼</span></h2>
-      <p class="fs-3 lh-md">My name is Victor Ajayi. I'm a C++/Python developer. I love programming and making fun projects. </p>
-      <button class="btn btn-outline-primary btn-md">
-        <a href="mailto:vickyajayi1@gmail.com" class="mail">Contact Me</a>
-      </button>
-  </main>
-  <!-- <footer class="text-center">
-    <p>You can find me on other platforms with these links!</p>
-    <div class="container">
-      <button class="btn btn-outline-dark btn-md">Social</button>
-      <button class="btn btn-outline-dark btn-md">Social</button>
-      <button class="btn btn-outline-dark btn-md">Social</button>
+  <main class="m-5 p-5 mx-2 px-2 text-dark">
+    <div class="container m-0 p-0">
+      <div class="d-md-flex justify-content-center justify-content-md-around">
+        <div class="">
+          <h3 class="display-5 fw-bold"><span class="hello">Hello! 👋🏼</span></h3>
+          <p class="fs-3 lh-md w-auto">
+            My name is Victor Ajayi.
+            <br>I'm a C++/Python developer.
+            <br>I love programming and making fun projects.
+          </p>
+        </div>
+        <div class="card bg-light border-light" style="width: 18rem;">
+          <img src="img/profile.jpg" class="card-img-top rounded-circle circle   w-75" alt="photo of me">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+            <a href="#" class="btn btn-primary">Contact Me</a>
+          </div>
+        </div>
+      </div>
     </div>
-  </footer> -->
+
+  </main>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>

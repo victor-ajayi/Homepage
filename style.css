@@ -1,10 +1,5 @@
 body {
-  font-family: "TT Norms Pro Regular";
-}
-
-.container {
-  border-bottom: 1px;
-  border-color: azure;
+  font-family: "TT Norms Pro";
 }
 
 .nav-item {
@@ -17,4 +12,9 @@ body {
 
 .mail {
   text-decoration: none;
+}
+
+.circle {
+  align-self: center;
+  padding: 10px;
 }
